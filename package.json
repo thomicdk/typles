@@ -1,0 +1,40 @@
+{
+  "name": "typles",
+  "version": "0.1.0",
+  "description": "Typles - TYPes from sampLES. Generate TypeScript types from samples of data",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node test/index",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomicdk/typles.git"
+  },
+  "keywords": [
+    "generator",
+    "json",
+    "schema",
+    "types",
+    "typescript",
+    "typings"
+  ],
+  "author": "Michael Thomassen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thomicdk/typles/issues"
+  },
+  "homepage": "https://github.com/thomicdk/typles#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1238.0",
+    "genson-js": "^0.0.8",
+    "json-schema-to-typescript": "^11.0.2",
+    "lodash": "^4.17.21",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.186"
+  }
+}
